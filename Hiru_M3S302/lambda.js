@@ -4,7 +4,7 @@ exports.handler = function (event, context, callback) {
 
 	s3.putObject({
 		"Body": "sample",
-		"Bucket": "hiru.new.29",
+		"Bucket": "sample.hiru",
 		"Key": "sample"
 	})
 		.promise()
